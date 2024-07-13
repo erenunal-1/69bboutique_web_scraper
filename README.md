@@ -1,4 +1,4 @@
-# 69B Boutique Web Scraper
+# 69bboutique Web Scraper
 
 A Python web scraper for extracting product information from 69bboutique.com.
 
@@ -26,8 +26,8 @@ This scraper navigates through the pages of 69bboutique.com to gather details ab
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/erenunal-1/69bboutique_scraper.git
-cd 69bboutique_scraper
+git clone https://github.com/erenunal-1/69bboutique_web_scraper.git
+cd 69bboutique_web_scraper
 
 2. Install the required packages:
 
@@ -36,3 +36,22 @@ pip install -r requirements.txt
 ```
 
 ## Running the Script
+
+```sh
+python 69bboutique.py
+```
+
+## Sample Output
+
+## Sample Output
+
+| Product Name             | Price (£) | Available Sizes   | Collection   | Collection Description                                                       | Fabric Type    |
+|--------------------------|-----------|-------------------|--------------|------------------------------------------------------------------------------|----------------|
+| Pink Panther Poncho      | 74.00     | None              | Rainkiss     | Rainkiss is an Amsterdam-based brand aiming to provide sustainable rainwear. | RECYCLED       |
+| Classic Smiley Poncho    | 74.00     | None              | Rainkiss     | Rainkiss is an Amsterdam-based brand aiming to provide sustainable rainwear. | RECYCLED       |
+| Snakes on a Poncho       | 74.00     | None              | Rainkiss     | Rainkiss is an Amsterdam-based brand aiming to provide sustainable rainwear. | RECYCLED       |
+| The Clouds Rain Poncho   | 74.00     | None              | Rainkiss     | Rainkiss is an Amsterdam-based brand aiming to provide sustainable rainwear. | RECYCLED       |
+| Parakeet Vest            | 35.00     | [XS, S, M, L, XL] | 69b Boutique | None                                                                         | ORGANIC COTTON |
+
+## License
+This project is licensed under the [MIT License](https://github.com/erenunal-1/69bboutique_web_scraper/blob/main/LICENSE) - see the LICENSE file for details.
